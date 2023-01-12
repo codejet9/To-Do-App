@@ -11,7 +11,7 @@ module.exports.delTask = function(req,res){
             console.log("error in deleting");
 
             return res.render('error_page',{
-                title: Error,
+                title: "Error",
                 err: "There has been an error in deleting the specified task.",
             })
         }
