@@ -9,7 +9,7 @@ module.exports.addTask = function(req,res){
             console.log("Error in creating a task");
 
             return res.render('error_page',{
-                title: Error,
+                title: "Error",
                 err: "Error in Creating Task. Please enter a description and/or a deadline date.",
             })
         }
