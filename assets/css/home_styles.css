@@ -1,0 +1,55 @@
+header .col{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+}
+header{
+    margin-bottom: 1%;
+}
+
+@media(min-width: 768px) {
+    .container-md{
+        width: 60%;
+    }
+}
+
+.category-date{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width: 350px) {
+    .category-date label{
+        display: none;
+    }
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.category-del-margin{
+    margin-right: 15%;
+}
+
+@media(max-width: 400px) {
+    .category-del-margin{
+        margin-right: 2%;
+    }
+}
+
+.del-btn{
+    color: red;
+    font-size: larger;
+}
+
+.strike-true{
+    text-decoration: line-through;
+}
+
+.statusColor-true{
+    background-color: palegreen;
+}
