@@ -10,7 +10,7 @@ module.exports.home = function(req,res){
             console.log("error in fetching tasks from DB");
             
             return res.render('error_page',{
-                title: Error,
+                title: "Error",
                 err: "Error in fetching data from the Database.",
             })
         }
