@@ -17,7 +17,7 @@ module.exports.updateStatus = function(req,res){
                 console.log("Error in updating the task");
                 
                 return res.render('error_page',{
-                    title: Error,
+                    title: "Error",
                     err: "Error in updating the status of the task.",
                 })
             }
